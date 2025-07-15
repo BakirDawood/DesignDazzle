@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Dazzle - Creative Digital Agency</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-logo">DD</div>
+            <div class="loader-text">Design Dazzle</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Design Dazzle</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Welcome to</span>
+                    <span class="name">Design Dazzle</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typewriter" id="typewriter"></span>
+                </div>
+                <p class="hero-description">
+                    We are a creative digital agency specializing in innovative design solutions, brand identity, and digital experiences that captivate and convert.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+                    <a href="#contact" class="btn btn-secondary">Start Your Project</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="agency-visual">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-palette"></i>
+                        <span>Design</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-code"></i>
+                        <span>Develop</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-rocket"></i>
+                        <span>Launch</span>
+                    </div>
+                    <div class="center-logo">
+                        <div class="logo-circle">DD</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Design Dazzle</h2>
+                <p>Crafting digital experiences that inspire</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>We're a Creative Digital Agency</h3>
+                    <p>At Design Dazzle, we believe in the power of exceptional design to transform businesses and create meaningful connections with audiences. Our team of creative professionals combines strategic thinking with innovative design to deliver solutions that not only look stunning but also drive results.</p>
+                    <p>From brand identity and web design to digital marketing and user experience, we offer comprehensive services that help businesses stand out in today's competitive digital landscape.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="250">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="8">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="150">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills" data-aos="fade-left">
+                    <h3>Our Expertise</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Brand Design</span>
+                            <span class="skill-percentage">98%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="98%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Web Development</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>UI/UX Design</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Digital Marketing</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Services</h2>
+                <p>Comprehensive digital solutions for your business</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Brand Identity</h3>
+                    <p>Creating memorable brand identities that resonate with your target audience and establish a strong market presence.</p>
+                    <ul class="service-features">
+                        <li>Logo Design</li>
+                        <li>Brand Guidelines</li>
+                        <li>Visual Identity</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, fast, and user-friendly websites that convert visitors into customers and drive business growth.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>E-commerce Solutions</li>
+                        <li>CMS Development</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive user interfaces and experiences that delight users and improve engagement across all platforms.</p>
+                    <ul class="service-features">
+                        <li>User Research</li>
+                        <li>Wireframing</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategic digital marketing campaigns that increase brand visibility, drive traffic, and generate qualified leads.</p>
+                    <ul class="service-features">
+                        <li>SEO Optimization</li>
+                        <li>Social Media</li>
+                        <li>Content Strategy</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Creating stunning visual content including marketing materials, packaging, and digital assets that communicate your message effectively.</p>
+                    <ul class="service-features">
+                        <li>Print Design</li>
+                        <li>Digital Assets</li>
+                        <li>Packaging Design</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Creative Strategy</h3>
+                    <p>Developing comprehensive creative strategies that align with your business goals and resonate with your target market.</p>
+                    <ul class="service-features">
+                        <li>Brand Strategy</li>
+                        <li>Creative Direction</li>
+                        <li>Campaign Planning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Portfolio</h2>
+                <p>Recent projects that showcase our expertise</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="E-commerce Platform">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>E-commerce Platform</h3>
+                                <p>Complete brand identity and e-commerce solution for fashion retailer</p>
+                                <div class="portfolio-tags">
+                                    <span>Branding</span>
+                                    <span>Web Design</span>
+                                    <span>E-commerce</span>
+                                </div>
+                                <div class="portfolio-buttons">
+                                    <a href="#" class="btn btn-primary btn-sm">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mobile App Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>FinTech Mobile App</h3>
+                                <p>UI/UX design for innovative financial technology application</p>
+                                <div class="portfolio-tags">
+                                    <span>UI/UX</span>
+                                    <span>Mobile</span>
+                                    <span>FinTech</span>
+                                </div>
+                                <div class="portfolio-buttons">
+                                    <a href="#" class="btn btn-primary btn-sm">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/265667/pexels-photo-265667.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Corporate Rebrand">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Corporate Rebrand</h3>
+                                <p>Complete brand transformation for established consulting firm</p>
+                                <div class="portfolio-tags">
+                                    <span>Rebranding</span>
+                                    <span>Corporate</span>
+                                    <span>Strategy</span>
+                                </div>
+                                <div class="portfolio-buttons">
+                                    <a href="#" class="btn btn-primary btn-sm">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=600" alt="SaaS Dashboard">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>SaaS Dashboard</h3>
+                                <p>Analytics dashboard design for B2B software platform</p>
+                                <div class="portfolio-tags">
+                                    <span>Dashboard</span>
+                                    <span>SaaS</span>
+                                    <span>Analytics</span>
+                                </div>
+                                <div class="portfolio-buttons">
+                                    <a href="#" class="btn btn-primary btn-sm">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Startup Identity">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Tech Startup Identity</h3>
+                                <p>Brand identity and digital presence for emerging tech startup</p>
+                                <div class="portfolio-tags">
+                                    <span>Startup</span>
+                                    <span>Identity</span>
+                                    <span>Digital</span>
+                                </div>
+                                <div class="portfolio-buttons">
+                                    <a href="#" class="btn btn-primary btn-sm">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/326512/pexels-photo-326512.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Marketing Campaign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Digital Campaign</h3>
+                                <p>Integrated digital marketing campaign for product launch</p>
+                                <div class="portfolio-tags">
+                                    <span>Campaign</span>
+                                    <span>Marketing</span>
+                                    <span>Launch</span>
+                                </div>
+                                <div class="portfolio-buttons">
+                                    <a href="#" class="btn btn-primary btn-sm">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Meet Our Team</h2>
+                <p>Creative minds behind Design Dazzle</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Creative Director">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Johnson</h3>
+                        <p class="member-role">Creative Director</p>
+                        <p class="member-bio">Leading creative vision with 10+ years of experience in brand strategy and design innovation.</p>
+                    </div>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Lead Developer">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Michael Chen</h3>
+                        <p class="member-role">Lead Developer</p>
+                        <p class="member-bio">Full-stack developer specializing in modern web technologies and scalable solutions.</p>
+                    </div>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400" alt="UX Designer">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Emily Rodriguez</h3>
+                        <p class="member-role">UX Designer</p>
+                        <p class="member-bio">User experience expert focused on creating intuitive and engaging digital experiences.</p>
+                    </div>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="400">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Marketing Strategist">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>David Thompson</h3>
+                        <p class="member-role">Marketing Strategist</p>
+                        <p class="member-bio">Digital marketing expert driving growth through data-driven strategies and creative campaigns.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Let's Work Together</h2>
+                <p>Ready to start your next project?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Get In Touch</h3>
+                    <p class="contact-intro">We'd love to hear about your project and discuss how we can help bring your vision to life.</p>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Global</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 7006810982</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>hello@designdazzle.co.in</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Project Type</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="budget" name="budget" required>
+                                <option value="">Select Budget Range</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="50k+">$50,000+</option>
+                            </select>
+                            <label for="budget">Budget Range</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Tell us about your project</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Start Your Project</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Design Dazzle</h3>
+                    <p>We are a creative digital agency specializing in innovative design solutions, brand identity, and digital experiences that captivate and convert.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Brand Identity</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Digital Marketing</a></li>
+                        <li><a href="#services">Graphic Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Global</p>
+                        <p><i class="fas fa-phone"></i> +91 7006810982</p>
+                        <p><i class="fas fa-envelope"></i> hello@designdazzle.co.in</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright ©2025 Design Dazzle. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

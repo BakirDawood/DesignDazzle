@@ -68,7 +68,7 @@ None — runs fully client-side using vanilla HTML, CSS, and JavaScript. No buil
 
 ## ✨ Credits
 
-- Built by [Your Name]
+- Built by Bakir Dawood
 - Logo: Custom uploaded asset
 - Colors: `#14133B` (Dark Blue), `#F5861F` (Orange Accent)
 

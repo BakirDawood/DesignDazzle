@@ -69,13 +69,10 @@ body {
 }
 
 .loader-logo {
-    font-size: 4rem;
-    font-weight: bold;
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    height: 80px;
+    width: auto;
     margin-bottom: 1rem;
+    filter: drop-shadow(0 4px 8px rgba(245, 134, 31, 0.3));
 }
 
 .loader-text {
